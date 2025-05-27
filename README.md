@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+Expense Management System using MERN Stack
+Live Website: https://main.d1sj7cd70hlter.amplifyapp.com/
+Vercel Link: https://expense-tracker-app-three-beryl.vercel.app/
+Project Description:
+The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to create a scalable, responsive, and user-friendly application.
+Objectives:
+1. Simplify expense tracking for individuals and organizations.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Provide detailed insights into spending patterns to enable better financial management.
 
-## Available Scripts
+3. Offer a platform for users to create, update, and delete expenses and categories.
 
-In the project directory, you can run:
+4. Generate comprehensive reports based on user-defined time periods and categories.
+Features
+User Authentication and Authorization:
 
-### `npm start`
+Allow users to sign up and log in to their personal accounts using secure authentication mechanisms. Implement role-based access control for administrative tasks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Expense and Category Management:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Enable users to create, update, and delete expense entries and categories. Track expenses by date, category, and description. Support attaching receipts or other relevant documents to expense entries.
 
-### `npm test`
+Dashboard and Reporting:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Provide a visual dashboard displaying an overview of the user's expenses, including total expenses, expenses by category, and recent transactions.
 
-### `npm run build`
+Generate reports based on selected date ranges and categories, displaying pie charts and bar graphs to help users understand their spending patterns.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Responsive User Interface:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Design a clean, responsive user interface that works seamlessly across desktop, tablet, and mobile devices.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Utilize React.js for building reusable UI components and managing state effectively.
 
-### `npm run eject`
+Technical Architecture:
+Frontend:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Utilize React.js for building the user interface, tsparticle library for awesome background effect and used other libraries like unique-names-generator, react-datepicker, moment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Implement responsive design using CSS frameworks like Bootstrap and Material-Icons.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Use Node.js and Express.js to build a RESTful API for handling client requests and serving as the application's backend.
 
-## Learn More
+Implement authentication and authorization using JSON Web Tokens (JWT) and middleware to protect endpoints.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Database:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Store all data, including user information, expense entries, and categories, in MongoDB, a NoSQL database.
 
-### Code Splitting
+Implement Mongoose ORM for schema definition and validation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Deployment:
 
-### Analyzing the Bundle Size
+Deploy the application to a cloud provider like AWS and render. frontend has deployed on AWS and backend on Render.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Set up Continuous Integration and Continuous Deployment (CI/CD) pipelines for automated builds and deployments.
 
-### Making a Progressive Web App
+Run Locally
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  git clone https://github.com/Priyanshu9898/Expense-Tracker-App
+Go to the project directory
 
-### Advanced Configuration
+  cd Expense-Tracker-App
+Go to the frontend directory and Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  cd frontend
+  npm install
+Go to the backend directory and Install dependencies
 
-### Deployment
+  cd backend
+  npm install
+Start the frontend server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  npm start
+Start the backend server
 
-### `npm run build` fails to minify
+  npm run dev
+Environment Variables
+To run this project, you will need to add the following environment variables to your .env file in backend folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+create config folder and add config.env file in it and all all env variables there.
+
+MONGO_URL : Your MongoDB Connection String
+
+PORT: PORT number
+
+Tech Stack
+Client: React, Redux, react-bootstrap, Material Icons, tsparticles
+
+Server: Node, Express
+
+Database: MongoDB
+
+Screenshots
+App Screenshot
+
+App Screenshot
+
+App Screenshot
+
+App Screenshot
+
+App Screenshot
+
+Badges
