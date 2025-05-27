@@ -1,8 +1,10 @@
 Expense Management System using MERN Stack
-Live Website: https://main.d1sj7cd70hlter.amplifyapp.com/
+
 Vercel Link: https://expense-tracker-app-three-beryl.vercel.app/
+
 Project Description:
 The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to create a scalable, responsive, and user-friendly application.
+
 Objectives:
 1. Simplify expense tracking for individuals and organizations.
 
@@ -12,6 +14,7 @@ Objectives:
 
 4. Generate comprehensive reports based on user-defined time periods and categories.
 Features
+
 User Authentication and Authorization:
 
 Allow users to sign up and log in to their personal accounts using secure authentication mechanisms. Implement role-based access control for administrative tasks.
@@ -95,11 +98,10 @@ Server: Node, Express
 Database: MongoDB
 
 Screenshots
-App Screenshot
 
-App Screenshot
+![68747470733a2f2f692e706f7374696d672e63632f36714c5233574e742f457870656e73652d4d616e6167656d656e742d53797374656d2d42726176652d31392d30342d323032332d31312d30382d35332e706e67](https://github.com/user-attachments/assets/78b3082c-4d25-4ba4-bfdf-2446ea765b27)
 
-App Screenshot
+
 
 App Screenshot
 
